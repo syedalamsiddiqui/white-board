@@ -1,4 +1,3 @@
-    // canavas board -> left  point kitna aage  hai 
     let boardLeft = canvasBoard.getBoundingClientRect().left;
     let boardTop = canvasBoard.getBoundingClientRect().top;
     let iX, iY, fX, fY;
@@ -17,7 +16,6 @@
             drawingMode = false;
 
         } else if (cTool == "rect" || cTool == "line") {
-            // rect, line
             fX = e.clientX + boardLeft;;
             fY = e.clientY - boardTop;
             let width = fX - iX;

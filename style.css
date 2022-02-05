@@ -1,21 +1,15 @@
 .toolbar {
     border: 1px solid gray;
     border-radius: 4px;
-
     width: 90vw;
-    /* trick element center */
     margin: 0 auto;
-    /* the children should have
-     space for alignment */
     height: 80px;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
 .tool-img {
-    /* img ko change to usko height */
     height: 50px;
 }
 
@@ -24,7 +18,6 @@
     border-radius: 3px;
     height: 50px;
     width: 150px;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -96,8 +89,6 @@
 
 
 /* sticky notes */
-
-/* div -> parent width  */
 .navbar {
 display: flex;
 height: 24px;
